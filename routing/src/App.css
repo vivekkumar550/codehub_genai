@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  padding: 10px 140px;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 80px;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.links ul li .active {
+  color: orange;
+}       
